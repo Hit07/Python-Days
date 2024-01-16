@@ -47,7 +47,7 @@
 # def squared_numbers(numbers):
 #     new_numbers=[]
 #     for item in numbers:
-#         print(item)
+#         # print(item)
 #         item *= item
 #         new_numbers.append(item)
 #     return new_numbers

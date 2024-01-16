@@ -1,16 +1,16 @@
 #Let's Go
 #DICTIONARIES AND NESTING LIST
 
-# Vehicles={
-# "Bus":"Toyato",
-# "Car":"Lambo",
-# "Lorry":123
-# }
-# # #Retreiving elements from Dictionary
-# # print(Vehicles["Lorry"])
-# # #Adding Key-Value pair to the dictionary
-# # Vehicles["Helicopter"]=345
-# # print(Vehicles)
+Vehicles={
+"Bus":"Toyato",
+"Car":"Lambo",
+"Lorry":123
+}
+#Retreiving elements from Dictionary
+print(Vehicles["Lorry"])
+#Adding Key-Value pair to the dictionary
+Vehicles["Helicopter"]=345
+print(Vehicles)
 # #Create an empty dictionary
 # # new_dictionary ={}
 # # new_list=[]
@@ -96,33 +96,33 @@
 # print(travel_log)
 # #---------------------------------------------------------------------------------------------
 #BIDING THE HIGHEST AMOUNT
-from replit import clear
-from art import logo
+# from replit import clear
+# from art import logo
 
 # HINT: You can call clear() to clear the output in the console.
-print(logo)
-print("-------------------------------------------------------------")
-def Highest_bidder(log):
-    print(log)
-    # print(max(log))
-    Highest_bid = 0
-    Highest_bidder= ''
-    for key in log:
-        if log[key] > a:
-            Highest_bid = log[key]
-            Highest_bidder = key
-    print(f"The winner is {Highest_bidder} with bid of {Highest_bid}")
-
-name = input("What is your name?")
-bid = int(input("What is your bid?$"))
-to_continue = input("Are there any other bidder?Type 'Y'or'N:")
-log = {}
-log[name] = bid
-while to_continue == 'Y':
-    clear()
-    name = input("What is your name?")
-    bid = int(input("What is your bid?$"))
-    to_continue = input("Are there any other bidder?Type 'Y'or'N':")
-    log[name] = bid
-if to_continue == 'N':
-   Highest_bidder(log)
+# print(logo)
+# print("-------------------------------------------------------------")
+# def Highest_bidder(log):
+#     print(log)
+#     # print(max(log))
+#     Highest_bid = 0
+#     Highest_bidder= ''
+#     for key in log:
+#         if log[key] > a:
+#             Highest_bid = log[key]
+#             Highest_bidder = key
+#     print(f"The winner is {Highest_bidder} with bid of {Highest_bid}")
+#
+# name = input("What is your name?")
+# bid = int(input("What is your bid?$"))
+# to_continue = input("Are there any other bidder?Type 'Y'or'N:")
+# log = {}
+# log[name] = bid
+# while to_continue == 'Y':
+#     clear()
+#     name = input("What is your name?")
+#     bid = int(input("What is your bid?$"))
+#     to_continue = input("Are there any other bidder?Type 'Y'or'N':")
+#     log[name] = bid
+# if to_continue == 'N':
+#    Highest_bidder(log)

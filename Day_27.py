@@ -1,30 +1,30 @@
-from tkinter import *
-window = Tk()
-window.title("First GUI")
-window.minsize(width=300,height=400)
-window.config(padx=20,pady=10)
-def button_clicked():
-    my_label.config(text=input_1.get())
-
-# Label
-my_label = Label(text="Label",font=("Arial", 14, "bold"))
-my_label.grid(column= 0,row=0)
-# my_label["text"] = "New Label"
-# my_label.config(text="New Label")
-
-new_button = Button(text="click")
-new_button.grid(column=3,row=0)
-
-button = Button(text="Click here",command=button_clicked)
-button.grid(column=2,row=2)
-# Entry
-input_1 = Entry(width=10)
-input_1.grid(column=4,row=4)
-# for displaying we have pack,place and grid
-# input1.pack()
-# input1.place()
-# input1.grid()
-mainloop()
+# from tkinter import *
+# window = Tk()
+# window.title("First GUI")
+# window.minsize(width=300,height=400)
+# window.config(padx=20,pady=10)
+# def button_clicked():
+#     my_label.config(text=input_1.get())
+#
+# # Label
+# my_label = Label(text="Label",font=("Arial", 14, "bold"))
+# my_label.grid(column= 0,row=0)
+# # my_label["text"] = "New Label"
+# # my_label.config(text="New Label")
+#
+# new_button = Button(text="click")
+# new_button.grid(column=3,row=0)
+#
+# button = Button(text="Click here",command=button_clicked)
+# button.grid(column=2,row=2)
+# # Entry
+# input_1 = Entry(width=10)
+# input_1.grid(column=4,row=4)
+# # for displaying we have pack,place and grid
+# # input1.pack()
+# # input1.place()
+# # input1.grid()
+# mainloop()
 #----------------------------------------------------------
 
 
@@ -149,3 +149,8 @@ mainloop()
 #
 # man = Man(move="Bengaluru",sit="nearby")
 # print(man.move,man.sit)
+
+post = input()
+print(post)
+post = eval(input())
+print(f"2:{post}")

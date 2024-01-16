@@ -1,9 +1,9 @@
- # import random
-# random_number = random.randint(1,100)
-# print(random_number)
-#__________________________________
-#Outputs a random number between 0 to 0.9999 [0,1)
-#For generating random number between 1 to any other number requires us to multiply
+# import random
+# # random_number = random.randint(1,100)
+# # print(random_number)
+# #__________________________________
+# #Outputs a random number between 0 to 0.9999 [0,1)
+# #For generating random number between 1 to any other number requires us to multiply
 # float_number = random.random()
 # float_number = random.random()*5
 # print(float_number)
@@ -23,14 +23,16 @@
 # X=Fruits.copy()
 #-----Split and Join ------
 # my_string = "Hello how are you doing?"
-# # a=my_string.split(",")
+# a = my_string.split(" ")
 # a = "--".join(my_string)
 # print(a)
 # #________________________
-# import random
+
+# from random import randint
+#
 # names_string = input("Give me everybody's names, separated by a comma.")
 # names = names_string.split(",")
-# index = random.randint(0,len(names)-1)
+# index = randint(0,len(names)-1)
 # random_name = names[index]
 # print(f"{random_name} is going to buy the meal today!")
 #_____________________-
@@ -43,7 +45,9 @@
 # position = input("Where do you want to put the treasure? ")
 # #USING SLPIT() AND JOIN() METHOD
 # # index = " ".join(position)
+# # print(index)
 # # indices = index.split()
+# # print(indices)
 # #---OR DIRECTLY BY CONSIDERING INDEXING
 # column = int(position[0])
 # row = int(position[1])

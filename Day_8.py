@@ -1,6 +1,4 @@
-#FUNCTION: PARAMETERS AND ARGUMENTS
-
-
+# FUNCTION: PARAMETERS AND ARGUMENTS
 # # Review:
 # # Create a function called greet().
 # def greet(name,location):
@@ -10,7 +8,7 @@
 #     # print(f"Have a good day {name}")
 # # Call the greet() function and run your code.
 # greet("Hitesh","Bengaluru")
-#----------------------------------------------
+# ----------------------------------------------
 
 # #Functions with more than one inputs
 # def greet(name,state,location):
@@ -20,7 +18,7 @@
 # #To miss out order of any arguments we can assign parameter while calling
 # #the fuction
 # greet(name="Hitesh",location="Bengaluru",state="Karnataka")
-#----------------------------------------------------------------
+# ----------------------------------------------------------------
 
 # def paint_calc(height,width,cover):
 #     cans = (height*width)/cover
@@ -32,26 +30,27 @@
 #
 # paint_calc(height=test_h, width=test_w, cover=coverage)
 # ---------------------------------------------------------------
-#PRIME NUMBER
+# PRIME NUMBER
 # def prime_checker(number):
 #     count = 0
 #     if number > 1:
 #         for i in range(2, int(number / 2) + 1):
 #             if (number % i) == 0:
+#                 print(i)
 #                 count += 1
 #         if count > 0:
 #             print("It's not a prime number.")
 #         else:
+#             # print(count)
 #             print("It's a prime number.")
 #     else:
 #         print("It's not a prime number.")
 # n = int(input("Check this number: "))
-# prime_checker(number=n)
+# prime_checker(n)
 # -----------------------------------------------------------
 # import math
-#The way to approximate the value to highest and lowest
+# The way to approximate the value to highest and lowest
 # # number = math.ceil(5.4)
 # # number = math.floor(5.4)
 # print(number)
-#------------------------------------------
-
+# ------------------------------------------
